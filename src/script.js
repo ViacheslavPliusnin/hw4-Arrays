@@ -12,7 +12,7 @@ function getPairs(students) {
     return arrayPairs;
 }
 const pairs = getPairs(students);
-console.log(pairs);
+console.log('Student pairs:', pairs);
 
 function getThemes(pairs, themes) {
     let arrayThemes = [];
@@ -22,7 +22,7 @@ function getThemes(pairs, themes) {
     return arrayThemes;
 }
 const studentsThemes = getThemes(pairs, themes);
-console.log(studentsThemes);
+console.log('Student themes:', studentsThemes);
 
 function getMarks(students, marks) {
     let arrayMarks = [];
@@ -32,7 +32,7 @@ function getMarks(students, marks) {
     return arrayMarks;
 }
 const studentsMarks = getMarks(students, marks);
-console.log(studentsMarks);
+console.log('Student marks:', studentsMarks);
 
 function getPairMarks(studentsThemes) {
     const possibleMarks = [1, 2, 3, 4, 5];
@@ -43,4 +43,4 @@ function getPairMarks(studentsThemes) {
     return arrayPairMarks;
 }
 const studentPairsMarks = getPairMarks(studentsThemes);
-console.log(studentPairsMarks);
+console.log('Student pairs marks:', studentPairsMarks);
